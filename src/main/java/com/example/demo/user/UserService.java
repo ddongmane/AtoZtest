@@ -1,4 +1,5 @@
 package com.example.demo.user;
 
-public class UserService {
+public interface UserService {
+    void save();
 }
